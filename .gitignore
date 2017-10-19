@@ -1,0 +1,6 @@
+# IGNORE EVERYTHING ...
+*
+# ... EXCEPT
+# git files
+!.gitattributes
+!.gitignore
