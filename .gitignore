@@ -37,6 +37,24 @@
 !/tutorials/*/*/*/testing_set/
 /tutorials/*/*/*/testing_set/*
 !/tutorials/*/*/*/testing_set/*.txt
+# DEIM: error analysis results
+!/tutorials/*/*/*/deim/*/error_analysis/
+/tutorials/*/*/*/deim/*/error_analysis/*
+!/tutorials/*/*/*/deim/*/error_analysis/*/
+/tutorials/*/*/*/deim/*error_analysis/*/*
+!/tutorials/*/*/*/deim/*/error_analysis/*/*.csv
+# DEIM: files for offline stage post processing
+!/tutorials/*/*/*/deim/*/post_processing/
+/tutorials/*/*/*/deim/*/post_processing/*
+!/tutorials/*/*/*/deim/*/post_processing/*.txt
+# DEIM: testing set
+!/tutorials/*/*/*/deim/*/training_set/
+/tutorials/*/*/*/deim/*/training_set/*
+!/tutorials/*/*/*/deim/*/training_set/*.txt
+# DEIM: training set
+!/tutorials/*/*/*/deim/*/testing_set/
+/tutorials/*/*/*/deim/*/testing_set/*
+!/tutorials/*/*/*/deim/*/testing_set/*.txt
 # EIM: error analysis results
 !/tutorials/*/*/*/eim/*/error_analysis/
 /tutorials/*/*/*/eim/*/error_analysis/*
