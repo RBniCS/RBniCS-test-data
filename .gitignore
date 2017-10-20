@@ -30,13 +30,13 @@
 /tutorials/*/*/*/post_processing/*
 !/tutorials/*/*/*/post_processing/*.txt
 # Problem: testing set
-!/tutorials/*/*/*/training_set/
-/tutorials/*/*/*/training_set/*
-!/tutorials/*/*/*/training_set/*.txt
-# Problem: training set
 !/tutorials/*/*/*/testing_set/
 /tutorials/*/*/*/testing_set/*
 !/tutorials/*/*/*/testing_set/*.txt
+# Problem: training set
+!/tutorials/*/*/*/training_set/
+/tutorials/*/*/*/training_set/*
+!/tutorials/*/*/*/training_set/*.txt
 # DEIM: error analysis results
 !/tutorials/*/*/*/deim/*/error_analysis/
 /tutorials/*/*/*/deim/*/error_analysis/*
@@ -48,13 +48,13 @@
 /tutorials/*/*/*/deim/*/post_processing/*
 !/tutorials/*/*/*/deim/*/post_processing/*.txt
 # DEIM: testing set
-!/tutorials/*/*/*/deim/*/training_set/
-/tutorials/*/*/*/deim/*/training_set/*
-!/tutorials/*/*/*/deim/*/training_set/*.txt
-# DEIM: training set
 !/tutorials/*/*/*/deim/*/testing_set/
 /tutorials/*/*/*/deim/*/testing_set/*
 !/tutorials/*/*/*/deim/*/testing_set/*.txt
+# DEIM: training set
+!/tutorials/*/*/*/deim/*/training_set/
+/tutorials/*/*/*/deim/*/training_set/*
+!/tutorials/*/*/*/deim/*/training_set/*.txt
 # EIM: error analysis results
 !/tutorials/*/*/*/eim/*/error_analysis/
 /tutorials/*/*/*/eim/*/error_analysis/*
@@ -66,13 +66,13 @@
 /tutorials/*/*/*/eim/*/post_processing/*
 !/tutorials/*/*/*/eim/*/post_processing/*.txt
 # EIM: testing set
-!/tutorials/*/*/*/eim/*/training_set/
-/tutorials/*/*/*/eim/*/training_set/*
-!/tutorials/*/*/*/eim/*/training_set/*.txt
-# EIM: training set
 !/tutorials/*/*/*/eim/*/testing_set/
 /tutorials/*/*/*/eim/*/testing_set/*
 !/tutorials/*/*/*/eim/*/testing_set/*.txt
+# EIM: training set
+!/tutorials/*/*/*/eim/*/training_set/
+/tutorials/*/*/*/eim/*/training_set/*
+!/tutorials/*/*/*/eim/*/training_set/*.txt
 
 # IGNORE EVERYTHING IN TESTS FOLDER ...
 !/tests/
@@ -89,6 +89,8 @@
 /tests/*/*/*/*/*/*
 !/tests/*/*/*/*/*/*/
 /tests/*/*/*/*/*/*/*
+!/tests/*/*/*/*/*/*/*/
+/tests/*/*/*/*/*/*/*/*
 # ... EXCEPT
 # Error analysis results
 !/tests/methodology/*/*/*/*/*/error_analysis/
@@ -101,10 +103,14 @@
 /tests/methodology/*/*/*/*/*/post_processing/*
 !/tests/methodology/*/*/*/*/*/post_processing/*.txt
 # Testing set
-!/tests/methodology/*/*/*/*/*/training_set/
-/tests/methodology/*/*/*/*/*/training_set/*
-!/tests/methodology/*/*/*/*/*/training_set/*.txt
-# Training set
 !/tests/methodology/*/*/*/*/*/testing_set/
 /tests/methodology/*/*/*/*/*/testing_set/*
 !/tests/methodology/*/*/*/*/*/testing_set/*.txt
+# Training set
+!/tests/methodology/*/*/*/*/*/training_set/
+/tests/methodology/*/*/*/*/*/training_set/*
+!/tests/methodology/*/*/*/*/*/training_set/*.txt
+# Training set of mock problem
+!/tests/methodology/*/*/*/*/*/mock_problem/training_set/
+/tests/methodology/*/*/*/*/*/mock_problem/training_set/*
+!/tests/methodology/*/*/*/*/*/mock_problem/training_set/*.txt
