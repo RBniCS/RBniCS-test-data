@@ -14,25 +14,47 @@
 /tutorials/*/*/*
 !/tutorials/*/*/*/
 /tutorials/*/*/*/*
+!/tutorials/*/*/*/*/
+/tutorials/*/*/*/*/*
+!/tutorials/*/*/*/*/*/
+/tutorials/*/*/*/*/*/*
 # ... EXCEPT
-# Error analysis results
+# Problem: error analysis results
 !/tutorials/*/*/*/error_analysis/
 /tutorials/*/*/*/error_analysis/*
 !/tutorials/*/*/*/error_analysis/*/
 /tutorials/*/*/*/error_analysis/*/*
 !/tutorials/*/*/*/error_analysis/*/*.csv
-# Files for offline stage post processing
+# Problem: files for offline stage post processing
 !/tutorials/*/*/*/post_processing/
 /tutorials/*/*/*/post_processing/*
 !/tutorials/*/*/*/post_processing/*.txt
-# Testing set
+# Problem: testing set
 !/tutorials/*/*/*/training_set/
 /tutorials/*/*/*/training_set/*
 !/tutorials/*/*/*/training_set/*.txt
-# Training set
+# Problem: training set
 !/tutorials/*/*/*/testing_set/
 /tutorials/*/*/*/testing_set/*
 !/tutorials/*/*/*/testing_set/*.txt
+# EIM: error analysis results
+!/tutorials/*/*/*/eim/*/error_analysis/
+/tutorials/*/*/*/eim/*/error_analysis/*
+!/tutorials/*/*/*/eim/*/error_analysis/*/
+/tutorials/*/*/*/eim/*error_analysis/*/*
+!/tutorials/*/*/*/eim/*/error_analysis/*/*.csv
+# EIM: files for offline stage post processing
+!/tutorials/*/*/*/eim/*/post_processing/
+/tutorials/*/*/*/eim/*/post_processing/*
+!/tutorials/*/*/*/eim/*/post_processing/*.txt
+# EIM: testing set
+!/tutorials/*/*/*/eim/*/training_set/
+/tutorials/*/*/*/eim/*/training_set/*
+!/tutorials/*/*/*/eim/*/training_set/*.txt
+# EIM: training set
+!/tutorials/*/*/*/eim/*/testing_set/
+/tutorials/*/*/*/eim/*/testing_set/*
+!/tutorials/*/*/*/eim/*/testing_set/*.txt
 
 # IGNORE EVERYTHING IN TESTS FOLDER ...
 !/tests/
