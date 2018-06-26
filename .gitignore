@@ -91,26 +91,81 @@
 /tests/*/*/*/*/*/*/*
 !/tests/*/*/*/*/*/*/*/
 /tests/*/*/*/*/*/*/*/*
-# ... EXCEPT
+# ... EXCEPT: EIM METHODOLOGY TESTS
 # Error analysis results
-!/tests/methodology/*/*/*/*/*/error_analysis/
-/tests/methodology/*/*/*/*/*/error_analysis/*
-!/tests/methodology/*/*/*/*/*/error_analysis/*/
-/tests/methodology/*/*/*/*/*/error_analysis/*/*
-!/tests/methodology/*/*/*/*/*/error_analysis/*/*.csv
+!/tests/methodology/eim/*/*/*/*/error_analysis/
+/tests/methodology/eim/*/*/*/*/error_analysis/*
+!/tests/methodology/eim/*/*/*/*/error_analysis/*/
+/tests/methodology/eim/*/*/*/*/error_analysis/*/*
+!/tests/methodology/eim/*/*/*/*/error_analysis/*/*.csv
 # Files for offline stage post processing
-!/tests/methodology/*/*/*/*/*/post_processing/
-/tests/methodology/*/*/*/*/*/post_processing/*
-!/tests/methodology/*/*/*/*/*/post_processing/*.txt
+!/tests/methodology/eim/*/*/*/*/post_processing/
+/tests/methodology/eim/*/*/*/*/post_processing/*
+!/tests/methodology/eim/*/*/*/*/post_processing/*.txt
 # Testing set
-!/tests/methodology/*/*/*/*/*/testing_set/
-/tests/methodology/*/*/*/*/*/testing_set/*
-!/tests/methodology/*/*/*/*/*/testing_set/*.txt
+!/tests/methodology/eim/*/*/*/*/testing_set/
+/tests/methodology/eim/*/*/*/*/testing_set/*
+!/tests/methodology/eim/*/*/*/*/testing_set/*.txt
 # Training set
-!/tests/methodology/*/*/*/*/*/training_set/
-/tests/methodology/*/*/*/*/*/training_set/*
-!/tests/methodology/*/*/*/*/*/training_set/*.txt
+!/tests/methodology/eim/*/*/*/*/training_set/
+/tests/methodology/eim/*/*/*/*/training_set/*
+!/tests/methodology/eim/*/*/*/*/training_set/*.txt
 # Training set of mock problem
-!/tests/methodology/*/*/*/*/*/mock_problem/training_set/
-/tests/methodology/*/*/*/*/*/mock_problem/training_set/*
-!/tests/methodology/*/*/*/*/*/mock_problem/training_set/*.txt
+!/tests/methodology/eim/*/*/*/*/mock_problem/training_set/
+/tests/methodology/eim/*/*/*/*/mock_problem/training_set/*
+!/tests/methodology/eim/*/*/*/*/mock_problem/training_set/*.txt
+# ... EXCEPT: TUTORIALS METHODOLOGY TESTS
+# Problem: error analysis results
+!/tests/methodology/tutorials/*/*/*/error_analysis/
+/tests/methodology/tutorials/*/*/*/error_analysis/*
+!/tests/methodology/tutorials/*/*/*/error_analysis/*/
+/tests/methodology/tutorials/*/*/*/error_analysis/*/*
+!/tests/methodology/tutorials/*/*/*/error_analysis/*/*.csv
+# Problem: files for offline stage post processing
+!/tests/methodology/tutorials/*/*/*/post_processing/
+/tests/methodology/tutorials/*/*/*/post_processing/*
+!/tests/methodology/tutorials/*/*/*/post_processing/*.txt
+# Problem: testing set
+!/tests/methodology/tutorials/*/*/*/testing_set/
+/tests/methodology/tutorials/*/*/*/testing_set/*
+!/tests/methodology/tutorials/*/*/*/testing_set/*.txt
+# Problem: training set
+!/tests/methodology/tutorials/*/*/*/training_set/
+/tests/methodology/tutorials/*/*/*/training_set/*
+!/tests/methodology/tutorials/*/*/*/training_set/*.txt
+# DEIM: error analysis results
+!/tests/methodology/tutorials/*/*/*/deim/*/error_analysis/
+/tests/methodology/tutorials/*/*/*/deim/*/error_analysis/*
+!/tests/methodology/tutorials/*/*/*/deim/*/error_analysis/*/
+/tests/methodology/tutorials/*/*/*/deim/*error_analysis/*/*
+!/tests/methodology/tutorials/*/*/*/deim/*/error_analysis/*/*.csv
+# DEIM: files for offline stage post processing
+!/tests/methodology/tutorials/*/*/*/deim/*/post_processing/
+/tests/methodology/tutorials/*/*/*/deim/*/post_processing/*
+!/tests/methodology/tutorials/*/*/*/deim/*/post_processing/*.txt
+# DEIM: testing set
+!/tests/methodology/tutorials/*/*/*/deim/*/testing_set/
+/tests/methodology/tutorials/*/*/*/deim/*/testing_set/*
+!/tests/methodology/tutorials/*/*/*/deim/*/testing_set/*.txt
+# DEIM: training set
+!/tests/methodology/tutorials/*/*/*/deim/*/training_set/
+/tests/methodology/tutorials/*/*/*/deim/*/training_set/*
+!/tests/methodology/tutorials/*/*/*/deim/*/training_set/*.txt
+# EIM: error analysis results
+!/tests/methodology/tutorials/*/*/*/eim/*/error_analysis/
+/tests/methodology/tutorials/*/*/*/eim/*/error_analysis/*
+!/tests/methodology/tutorials/*/*/*/eim/*/error_analysis/*/
+/tests/methodology/tutorials/*/*/*/eim/*error_analysis/*/*
+!/tests/methodology/tutorials/*/*/*/eim/*/error_analysis/*/*.csv
+# EIM: files for offline stage post processing
+!/tests/methodology/tutorials/*/*/*/eim/*/post_processing/
+/tests/methodology/tutorials/*/*/*/eim/*/post_processing/*
+!/tests/methodology/tutorials/*/*/*/eim/*/post_processing/*.txt
+# EIM: testing set
+!/tests/methodology/tutorials/*/*/*/eim/*/testing_set/
+/tests/methodology/tutorials/*/*/*/eim/*/testing_set/*
+!/tests/methodology/tutorials/*/*/*/eim/*/testing_set/*.txt
+# EIM: training set
+!/tests/methodology/tutorials/*/*/*/eim/*/training_set/
+/tests/methodology/tutorials/*/*/*/eim/*/training_set/*
+!/tests/methodology/tutorials/*/*/*/eim/*/training_set/*.txt
