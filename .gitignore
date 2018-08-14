@@ -41,7 +41,7 @@
 !/tutorials/*/*/*/deim/*/error_analysis/
 /tutorials/*/*/*/deim/*/error_analysis/*
 !/tutorials/*/*/*/deim/*/error_analysis/*/
-/tutorials/*/*/*/deim/*error_analysis/*/*
+/tutorials/*/*/*/deim/*/error_analysis/*/*
 !/tutorials/*/*/*/deim/*/error_analysis/*/*.csv
 # DEIM: files for offline stage post processing
 !/tutorials/*/*/*/deim/*/post_processing/
@@ -59,7 +59,7 @@
 !/tutorials/*/*/*/eim/*/error_analysis/
 /tutorials/*/*/*/eim/*/error_analysis/*
 !/tutorials/*/*/*/eim/*/error_analysis/*/
-/tutorials/*/*/*/eim/*error_analysis/*/*
+/tutorials/*/*/*/eim/*/error_analysis/*/*
 !/tutorials/*/*/*/eim/*/error_analysis/*/*.csv
 # EIM: files for offline stage post processing
 !/tutorials/*/*/*/eim/*/post_processing/
@@ -73,6 +73,24 @@
 !/tutorials/*/*/*/eim/*/training_set/
 /tutorials/*/*/*/eim/*/training_set/*
 !/tutorials/*/*/*/eim/*/training_set/*.txt
+# SCM: error analysis results
+!/tutorials/*/*/*/scm/error_analysis/
+/tutorials/*/*/*/scm/error_analysis/*
+!/tutorials/*/*/*/scm/error_analysis/*/
+/tutorials/*/*/*/scm/error_analysis/*/*
+!/tutorials/*/*/*/scm/error_analysis/*/*.csv
+# SCM: files for offline stage post processing
+!/tutorials/*/*/*/scm/post_processing/
+/tutorials/*/*/*/scm/post_processing/*
+!/tutorials/*/*/*/scm/post_processing/*.txt
+# SCM: testing set
+!/tutorials/*/*/*/scm/testing_set/
+/tutorials/*/*/*/scm/testing_set/*
+!/tutorials/*/*/*/scm/testing_set/*.txt
+# SCM: training set
+!/tutorials/*/*/*/scm/training_set/
+/tutorials/*/*/*/scm/training_set/*
+!/tutorials/*/*/*/scm/training_set/*.txt
 
 # IGNORE EVERYTHING IN TESTS FOLDER ...
 !/tests/
@@ -137,7 +155,7 @@
 !/tests/methodology/tutorials/*/*/*/deim/*/error_analysis/
 /tests/methodology/tutorials/*/*/*/deim/*/error_analysis/*
 !/tests/methodology/tutorials/*/*/*/deim/*/error_analysis/*/
-/tests/methodology/tutorials/*/*/*/deim/*error_analysis/*/*
+/tests/methodology/tutorials/*/*/*/deim/*/error_analysis/*/*
 !/tests/methodology/tutorials/*/*/*/deim/*/error_analysis/*/*.csv
 # DEIM: files for offline stage post processing
 !/tests/methodology/tutorials/*/*/*/deim/*/post_processing/
@@ -155,7 +173,7 @@
 !/tests/methodology/tutorials/*/*/*/eim/*/error_analysis/
 /tests/methodology/tutorials/*/*/*/eim/*/error_analysis/*
 !/tests/methodology/tutorials/*/*/*/eim/*/error_analysis/*/
-/tests/methodology/tutorials/*/*/*/eim/*error_analysis/*/*
+/tests/methodology/tutorials/*/*/*/eim/*/error_analysis/*/*
 !/tests/methodology/tutorials/*/*/*/eim/*/error_analysis/*/*.csv
 # EIM: files for offline stage post processing
 !/tests/methodology/tutorials/*/*/*/eim/*/post_processing/
@@ -169,3 +187,21 @@
 !/tests/methodology/tutorials/*/*/*/eim/*/training_set/
 /tests/methodology/tutorials/*/*/*/eim/*/training_set/*
 !/tests/methodology/tutorials/*/*/*/eim/*/training_set/*.txt
+# SCM: error analysis results
+!/tests/methodology/tutorials/*/*/*/scm/error_analysis/
+/tests/methodology/tutorials/*/*/*/scm/error_analysis/*
+!/tests/methodology/tutorials/*/*/*/scm/error_analysis/*/
+/tests/methodology/tutorials/*/*/*/scm/error_analysis/*/*
+!/tests/methodology/tutorials/*/*/*/scm/error_analysis/*/*.csv
+# SCM: files for offline stage post processing
+!/tests/methodology/tutorials/*/*/*/scm/post_processing/
+/tests/methodology/tutorials/*/*/*/scm/post_processing/*
+!/tests/methodology/tutorials/*/*/*/scm/post_processing/*.txt
+# SCM: testing set
+!/tests/methodology/tutorials/*/*/*/scm/testing_set/
+/tests/methodology/tutorials/*/*/*/scm/testing_set/*
+!/tests/methodology/tutorials/*/*/*/scm/testing_set/*.txt
+# SCM: training set
+!/tests/methodology/tutorials/*/*/*/scm/training_set/
+/tests/methodology/tutorials/*/*/*/scm/training_set/*
+!/tests/methodology/tutorials/*/*/*/scm/training_set/*.txt
